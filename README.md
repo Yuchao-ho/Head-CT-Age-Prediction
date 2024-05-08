@@ -3,7 +3,7 @@
 
 # About new custom dataset
 (2) shape of the outputs:  
-patient_slice: torch.Size([64, 1, 224, 224, 28])
+patient_slice: torch.Size([64, 1, 224, 224, 64])
 
 age_label: torch.Size([64, 1])
 
