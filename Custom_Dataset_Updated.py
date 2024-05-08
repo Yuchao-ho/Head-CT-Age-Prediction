@@ -8,7 +8,7 @@ def normalize_image(image):
 def create_3D_slice(patient_dir):
   patient_slice = []
 
-  index_list = random.sample(range(len(os.listdir(patient_dir))),28)
+  index_list = random.sample(range(len(os.listdir(patient_dir))),64)
 
   for index in index_list:
     dcm_file = os.listdir(patient_dir)[index]
