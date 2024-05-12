@@ -11,3 +11,5 @@ age_label: torch.Size([64, 1])
 (3) Dataset is 100 patients which is trained on a network for around 80 epochs.
 
 Simple CNN model: MAE = 17.3
+
+Pretrained CNN model with attention: MAE = 8.4
